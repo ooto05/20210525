@@ -1,0 +1,21 @@
+{
+  "name": "memo-app-sample",
+  "version": "1.0.0",
+  "description": "## Flow 1. run to shell     ~~~shell     # docker-compose up -d     ~~~ 1. kill to process     ~~~shell     # docker-compose down     ~~~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug-input-build": "pug pug/input.pug --out ./input.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksbitbusiness/memo-app-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksbitbusiness/memo-app-sample/issues"
+  },
+  "homepage": "https://github.com/ksbitbusiness/memo-app-sample#readme"
+}

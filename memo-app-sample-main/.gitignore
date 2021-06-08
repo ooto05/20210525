@@ -1,0 +1,12 @@
+.DS_Store
+
+# env file
+html/.env
+
+# pug create files
+pug/*
+
+# npm
+package-lock.json
+node_modelues
+
