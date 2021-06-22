@@ -31,9 +31,24 @@
   </button>
 </nav>    
 
-      <div class="container">       
+      <div class="container">
+        <?php for($i = 1;$i <= 2;$i++) { ?>
+          <div class="row">
+            <?php for($j = 1;$j <= 4;$j++) { ?>
+              <div class="col-sm">
+                <div class="card">
+                  <img src="img/3c882f8bd3ada9d4f19a0f15d7cde3e1.png" class="img-fluid" alt="Responsive image">
+                  <div class="card-body">
+                    <p class="card-text">サンダース</p>
+                  </div>
+                  <a href="file:///Users/business14/Documents/sakai/b/detail.html">ポケモン</a>
+                </div>
+              </div>
+            <?php } ?>
+          </div>
+        <?php } ?>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-sm">
             <div class="card">
               <img src="img/185e0940b953a8bbee052540ab80e229.png" class="img-fluid" alt="Responsive image">
@@ -110,7 +125,8 @@
               <a href="file:///Users/business14/Documents/sakai/b/detail.html">ポケモン</a>
             </div>
           </div>
-        </div>
+        </div> -->
+      </div>
       <footer class="footer">
         <p class="text-center">@copyright 2021.</p>
       </footer>
