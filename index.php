@@ -41,7 +41,7 @@
                   <div class="card-body">
                     <p class="card-text">サンダース</p>
                   </div>
-                  <a href="file:///Users/business14/Documents/sakai/b/detail.html">ポケモン</a>
+                  <a href="./detail.php">ポケモン</a>
                 </div>
               </div>
             <?php } ?>
